@@ -1,0 +1,14 @@
+.conteiner__menu-bar{
+  justify-content: end;
+  align-items: center;
+}
+
+.conteiner__menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+
+}
+.conteiner__menu-bar > ul > li{
+  list-style: none;
+  margin-right: 20px;
+}
