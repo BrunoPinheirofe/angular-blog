@@ -13,11 +13,15 @@ margin-right: 20px;
 
 .small-card__title{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.small-card__title > h1 > a {
+  font-size: 30px;
 }
 
 .conteiner__small-card-separator{
   margin-bottom: 20px;
-  
+
 }
